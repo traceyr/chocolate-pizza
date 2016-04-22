@@ -1,0 +1,66 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  border-bottom: solid;
+}
+
+
+.right-side-header {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.left-side-header {
+  display: inline;
+}
+
+.right-side-img {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.left-side-img {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.inline-block h2 {
+  margin-bottom: 0;
+}
+
+.inline-block p {
+  margin-top: 0;
+}
+
+.recipe-header {
+  display: inline-block;
+}
+
+.recipe-header h2 {
+  margin-bottom: 0;
+}
+
+.recipe-header p {
+  margin-top: 0;
+}
+ .print-img {
+   display: inline;
+   float: right;
+ }
+
+ .print-img p {
+   display: inline;
+ }
+
+ .choco-pizza {
+   width: 100%;
+ }
