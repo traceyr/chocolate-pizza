@@ -13,15 +13,26 @@ header {
 
 .right-side-header {
   display: inline;
-  justify-content: flex-end;
+  justify-content: flex-start;;
 }
 
 .inline-block {
   display: inline-block;
 }
 
+.inline-block h2 {
+  font-family: 'Yellowtail', cursive;
+}
+
+.inline-block p {
+  font-size: 10px;
+  color: grey;
+}
+
 .left-side-header {
   display: inline;
+  margin-left: 310px;
+  margin-top: 25px;
 }
 
 .right-side-img {
@@ -47,13 +58,18 @@ header {
 }
 
 .recipe-header h2 {
+  font-family: arial;
   margin-bottom: 0;
 }
 
 .recipe-header p {
+  font-size: 10px;
   margin-top: 0;
+  color: grey;
 }
  .print-img {
+   font-size: 10px;
+   margin-top: 50px;
    display: inline;
    float: right;
  }
@@ -66,13 +82,24 @@ header {
    width: 100%;
  }
 
+ .main-p-wording {
+   text-indent: 1.5em;
+ }
+
 .ing-list {
   background-image: url("img/list-bg.png");
   margin-bottom: 30px;
+  box-shadow: 0px 5px 2px #888888;
 }
  .ing-list ul {
   list-style: none;
   display: inline-block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+ .left-ul {
+   margin-left: 10px;
+   margin-right: 90px;
  }
 
  .stupid-line {
