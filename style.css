@@ -1,6 +1,7 @@
 body {
   margin-left: 15%;
   margin-right: 15%;
+  font-style:  Georgia, Times, serif;
 }
 
 header {
@@ -64,3 +65,61 @@ header {
  .choco-pizza {
    width: 100%;
  }
+
+.ing-list {
+  background-image: url("img/list-bg.png");
+  margin-bottom: 30px;
+}
+ .ing-list ul {
+  list-style: none;
+  display: inline-block;
+ }
+
+ .stupid-line {
+   border-top: solid;
+ }
+
+ .author-blurb {
+  /*border-top: solid;*/
+  display: inline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+
+.words-and-pic {
+  margin-top: 30px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.words {
+  display: inline-block;
+}
+
+.words h4 {
+  margin-bottom: 5px;
+}
+
+.words p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+footer {
+  clear: both;
+  width: 100%
+  padding-top: 50px;
+  text-align: center;;
+  display: block;
+}
+
+ footer img {
+   justify-content: center;
+   margin-bottom: 15px;
+ }
+
+footer p {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
