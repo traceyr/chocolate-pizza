@@ -1,0 +1,165 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-style:  Georgia, Times, serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  border-bottom: solid;
+}
+
+
+.right-side-header {
+  display: inline;
+  justify-content: flex-start;;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline-block h2 {
+  font-family: 'Yellowtail', cursive;
+}
+
+.inline-block p {
+  font-size: 10px;
+  color: grey;
+}
+
+.left-side-header {
+  display: inline;
+  margin-left: 310px;
+  margin-top: 25px;
+}
+
+.right-side-img {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.left-side-img {
+  display: inline;
+  justify-content: flex-end;
+}
+
+.inline-block h2 {
+  margin-bottom: 0;
+}
+
+.inline-block p {
+  margin-top: 0;
+}
+
+.recipe-header {
+  display: inline-block;
+}
+
+.recipe-header h2 {
+  font-family: arial;
+  margin-bottom: 0;
+}
+
+.recipe-header p {
+  font-size: 10px;
+  margin-top: 0;
+  color: grey;
+}
+ .print-img {
+   font-size: 10px;
+   margin-top: 50px;
+   display: inline;
+   float: right;
+ }
+
+ .print-img p {
+   display: inline;
+ }
+
+ .choco-pizza {
+   width: 100%;
+ }
+
+ .main-p-wording {
+   text-indent: 1.5em;
+ }
+
+.ing-list {
+  background-image: url("img/list-bg.png");
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 2px #888888;
+}
+ .ing-list ul {
+  list-style: none;
+  display: inline-block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+ .left-ul {
+   margin-left: 10px;
+   margin-right: 90px;
+ }
+
+ .stupid-line {
+   border-top: solid;
+ }
+
+ .author-blurb {
+  /*border-top: solid;*/
+  display: inline;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+
+.words-and-pic {
+  margin-top: 30px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.words {
+  display: inline-block;
+}
+
+.words h4 {
+  margin-bottom: 5px;
+}
+
+.words p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.share-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+
+footer {
+  clear: both;
+  width: 100%
+  padding-top: 50px;
+  text-align: center;;
+  display: block;
+}
+
+ footer img {
+   justify-content: center;
+   margin-bottom: 15px;
+ }
+
+footer p {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
